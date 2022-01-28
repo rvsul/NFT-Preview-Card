@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Oswald:wght@200;300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* line 3, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+body {
+  background-color: #0d192b;
+}
+
+/* line 6, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.main {
+  background-color: #14253d;
+  width: 370px;
+  height: 630px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(4, 9, 31, 0.651), 0 6px 20px 0 rgba(4, 15, 36, 0.76);
+}
+
+/* line 21, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.image img {
+  max-width: 85%;
+  max-height: 75%;
+  border-radius: 10px;
+  position: absolute;
+  top: 24px;
+  left: 26px;
+}
+
+/* line 31, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.header {
+  position: absolute;
+  top: 350px;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  font-size: 12px;
+  left: 26px;
+  opacity: 0.90;
+}
+
+/* line 39, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.header h1 {
+  font-weight: 500;
+}
+
+/* line 44, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.para p {
+  position: absolute;
+  top: 395px;
+  left: 26px;
+  color: #8bacda;
+  opacity: 0.8;
+  font-family: 'Outfit', sans-serif;
+  font-size: 19px;
+}
+
+/* line 54, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.price {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  color: #00fff7;
+  position: absolute;
+  top: 500px;
+  left: 26px;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* line 64, ../../Users/RASUL/Desktop/DEV/projects/nft preview card/sass/style.scss */
+.footer {
+  left: 26px;
+  width: 85%;
+  display: flex;
+  position: absolute;
+  top: 540px;
+  height: 80px;
+  border-top: 0.1px solid rgba(139, 172, 218, 0.2);
+}
+
+/*# sourceMappingURL=style.css.map */
